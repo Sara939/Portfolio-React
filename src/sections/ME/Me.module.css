@@ -9,6 +9,7 @@
 
   .me {
     max-width: 200px;
+    /* border-radius: 60px; */
   }
 
   span {
@@ -68,7 +69,8 @@
 }
 
 .description {
-  max-width: 24ch;
+  max-width: 39ch;
+  /*24*/
 }
 
 .info {

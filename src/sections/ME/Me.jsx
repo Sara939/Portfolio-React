@@ -37,7 +37,7 @@ function Me() {
           Sara <br />
           Likaount
         </h1>
-        <h2>Full-Stack Developer</h2>
+        <h2>Full-Stack Web Developer</h2>
         <span>
           <a href="www.linkdin/saralikaount" target="_blank">
             <img src={linkdinIcon} alt="linkdin icon" />
