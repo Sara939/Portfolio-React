@@ -1,5 +1,5 @@
 import styles from "../ME/Me.module.css";
-import meImg from "../../assets/me.png";
+import meImg from "../../assets/me1.png";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import githubdark from "../../assets/github-dark.svg";
@@ -24,13 +24,21 @@ function Me() {
   return (
     <section id="me" className={styles.container}>
       <div className={styles.colorModeContainer}>
-        <img className={styles.me} src={meImg} alt="profile picture of me" />
-        <img
-          src={themeIcon}
-          alt="color mode icon"
-          className={styles.colorMode}
-          onClick={toggleTheme}
-        />
+        <div>
+          <img
+            className={styles.colorMode}
+            src={themeIcon}
+            alt="color mode icon"
+            onClick={toggleTheme}
+          />
+          <div>
+            <img
+              className={styles.me}
+              src={meImg}
+              alt="profile picture of me"
+            />
+          </div>
+        </div>
       </div>
       <div className={styles.info}>
         <h1>

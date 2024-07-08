@@ -9,7 +9,7 @@
 
   .me {
     max-width: 200px;
-    /* border-radius: 60px; */
+    border-radius: 20px;
   }
 
   span {
@@ -61,7 +61,7 @@
 .colorMode {
   position: absolute;
   right: 0;
-  width: 25px;
+  width: 30px;
 }
 
 .colorMode:hover {
@@ -69,8 +69,7 @@
 }
 
 .description {
-  max-width: 39ch;
-  /*24*/
+  max-width: 70ch;
 }
 
 .info {
@@ -78,14 +77,14 @@
   flex-direction: column;
   gap: 20px;
 }
-/*
+
 @media (width >= 800px) {
   .container {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
 
-    .hero {
+    .me {
       max-width: 350px;
       width: 350px;
     }
@@ -94,9 +93,9 @@
 
 @media (width >= 1400px) {
   .container {
-    .hero {
+    .me {
       max-width: 400px;
       width: 400px;
     }
   }
-} */
+}
