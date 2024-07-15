@@ -24,21 +24,13 @@ function Me() {
   return (
     <section id="me" className={styles.container}>
       <div className={styles.colorModeContainer}>
-        <div>
-          <img
-            className={styles.colorMode}
-            src={themeIcon}
-            alt="color mode icon"
-            onClick={toggleTheme}
-          />
-          <div>
-            <img
-              className={styles.me}
-              src={meImg}
-              alt="profile picture of me"
-            />
-          </div>
-        </div>
+        <img
+          className={styles.colorMode}
+          src={themeIcon}
+          alt="color mode icon"
+          onClick={toggleTheme}
+        />
+        <img className={styles.me} src={meImg} alt="profile picture of me" />
       </div>
       <div className={styles.info}>
         <h1>

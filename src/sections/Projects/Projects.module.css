@@ -5,8 +5,9 @@
 
   img {
     max-width: 250px;
+    max-height: 250px;
     align-self: center;
-    background-color: var(--project-card-bg);
+    /* background-color: var(--project-card-bg); */
     border-radius: 20px;
   }
 
@@ -29,11 +30,11 @@
   gap: 30px;
 }
 
-/* @media (width >= 800px) {
-    .projectsContainer {
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      padding: 0 30px;
-    }
-  } */
+@media (width >= 800px) {
+  .projectsContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 30px;
+  }
+}

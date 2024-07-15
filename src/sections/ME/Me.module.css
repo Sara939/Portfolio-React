@@ -56,10 +56,12 @@
 
 .colorModeContainer {
   position: relative;
+  padding: 50px;
 }
 
 .colorMode {
-  position: absolute;
+  position: fixed;
+
   right: 0;
   width: 30px;
 }
